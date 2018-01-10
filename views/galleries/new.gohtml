@@ -1,0 +1,23 @@
+{{define "yield"}}
+<div class="w-full max-w-xs mx-auto mt-8">
+    <form action="/galleries" method="POST" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+        <div class="mb-4">
+            <label for="name" class="block text-grey-darker text-sm font-bold mb-2">
+                Name
+            </label>
+            <input name="name" id="name" type="text" placeholder="Name" class="shadow appearance-none border rounded w-full py-2 px-3 text-grey-darker">
+        </div>
+        <div class="mb-6">
+            <label for="author" class="block text-grey-darker text-sm font-bold mb-2">
+                Author
+            </label>
+            <input name="author" class="shadow appearance-none border border rounded w-full py-2 px-3 text-grey-darker mb-3" id="password" type="password" placeholder="Author">
+        </div>
+        <div class="flex items-center justify-between">
+            <button class="bg-blue hover:bg-blue-dark text-white font-bold py-2 px-4 rounded" type="submit">
+              Create
+            </button>
+          </div>
+    </form>
+</div>
+{{end}}
