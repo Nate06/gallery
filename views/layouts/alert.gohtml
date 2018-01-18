@@ -1,6 +1,5 @@
 {{define "alert"}}
-<div class="bg-red-lightest border border-red-light text-red-dark px-4 py-3 rounded relative" role="alert">
-    <strong class="font-bold">Holy smokes!</strong>
-    <span class="block sm:inline">Something seriously bad happened.</span>
+<div style="top:1em" class="bg-red-lightest border border-red-light text-red-dark px-4 py-3 rounded absolute w-2/5 pin-l pin-r mx-auto" role="alert">
+    <span class="block sm:inline">{{.Message}}</span>
 </div>
 {{end}}

@@ -13,8 +13,8 @@ import (
 const (
 	host     = "localhost"
 	port     = 5432
-	user     = "yuhuiyuan"
-	password = ""
+	user     = "postgres"
+	password = "postgres"
 	dbname   = "gallery"
 )
 

@@ -14,6 +14,10 @@ type Users struct {
 	us        models.UserService
 }
 
+type Alert struct {
+	Message string
+}
+
 type SignupForm struct {
 	Name     string `schema:"name"`
 	Email    string `schema:"email"`
